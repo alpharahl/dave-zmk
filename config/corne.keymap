@@ -16,6 +16,16 @@
             bindings = <&kp ESCAPE>;
             key-positions = <15 20>;
         };
+
+        ctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <16 15>;
+        };
+
+        ctrl {
+            bindings = <&kp RCTRL>;
+            key-positions = <19 20>;
+        };
     };
 
     keymap {
