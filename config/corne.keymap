@@ -29,10 +29,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&trans  &kp Q  &kp W  &kp E  &kp R             &kp T          &kp Y    &kp U          &kp I            &kp O                 &kp P                 &trans
-&trans  &kp A  &kp S  &kp D  &kp F             &kp G          &kp H    &kp J          &kp K            &kp L                 &kp SEMICOLON         &trans
-&trans  &kp Z  &kp X  &kp C  &kp V             &kp B          &kp N    &kp M          &mt RCTRL COMMA  &mt RIGHT_ALT PERIOD  &mt LEFT_SHIFT SLASH  &trans
-                      &mo 1  &kp LEFT_COMMAND  &lt 3 SPACE    &kp RET  &kp BACKSPACE  &mo 2
+&trans  &kp Q             &kp W  &kp E          &kp R  &kp T          &kp Y    &kp U          &kp I            &kp O                 &kp P                 &trans
+&trans  &kp A             &kp S  &kp D          &kp F  &kp G          &kp H    &kp J          &kp K            &kp L                 &kp SEMICOLON         &trans
+&trans  &mt LEFT_SHIFT Z  &kp X  &kp C          &kp V  &kp B          &kp N    &kp M          &mt RCTRL COMMA  &mt RIGHT_ALT PERIOD  &mt LEFT_SHIFT SLASH  &trans
+                                 &kp LEFT_META  &mo 1  &lt 3 SPACE    &kp RET  &kp BACKSPACE  &mo 2
             >;
         };
 
@@ -59,10 +59,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL        &kp AT            &kp HASH           &kp DLLR       &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
-&trans  &kp GRAVE       &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans         &trans       &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &trans
-&trans  &kp LEFT_SHIFT  &kp TAB           &trans             &trans         &trans       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &trans
-                                          &trans             &kp LEFT_META  &kp SPACE    &kp RET    &trans     &trans
+&trans  &kp EXCL        &kp AT            &kp HASH           &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
+&trans  &kp GRAVE       &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &trans
+&trans  &kp LEFT_SHIFT  &kp TAB           &trans             &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &trans
+                                          &kp LEFT_META      &trans    &kp SPACE    &kp RET    &trans     &trans
             >;
         };
 
