@@ -30,9 +30,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&trans  &kp Q  &kp W  &kp E  &kp R             &kp T        &kp Y    &kp U          &kp I      &kp O          &kp P           &trans
-&trans  &kp A  &kp S  &kp D  &kp F             &kp G        &kp H    &kp J          &kp K      &kp L          &kp SEMICOLON   &trans
-&trans  &kp Z  &kp X  &kp C  &kp V             &kp B        &kp N    &kp M          &kp RCTRL  &kp RIGHT_ALT  &kp LEFT_SHIFT  &trans
+&trans  &kp Q  &kp W  &kp E  &kp R             &kp T        &kp Y    &kp U          &kp I            &kp O                 &kp P                 &trans
+&trans  &kp A  &kp S  &kp D  &kp F             &kp G        &kp H    &kp J          &kp K            &kp L                 &kp SEMICOLON         &trans
+&trans  &kp Z  &kp X  &kp C  &kp V             &kp B        &kp N    &kp M          &mt RCTRL COMMA  &mt RIGHT_ALT PERIOD  &mt LEFT_SHIFT SLASH  &trans
                       &mo 1  &kp LEFT_COMMAND  &kp SPACE    &kp RET  &kp BACKSPACE  &mo 2
             >;
         };
