@@ -17,12 +17,12 @@
             key-positions = <15 20>;
         };
 
-        ctrl {
+        lctrl {
             bindings = <&kp LCTRL>;
             key-positions = <16 15>;
         };
 
-        ctrl {
+        rightctrl {
             bindings = <&kp RCTRL>;
             key-positions = <19 20>;
         };
